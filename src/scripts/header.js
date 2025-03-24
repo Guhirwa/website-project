@@ -22,8 +22,7 @@ const observer = new MutationObserver(() => {
 
 })
 
-observer.observe(document.getElementById("header"), { childList: true, subtree: true })
-
+observer.observe(document.getElementById("mobile-header"), { childList: true, subtree: true })
 
 const stopObserver = ()=> observer.disconnect()
 
