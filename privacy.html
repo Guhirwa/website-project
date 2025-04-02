@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/src/style.css">
-    <title>Website project template</title>
+    <title>Privacy</title>
 </head>
 <script>
     const loadComponents = (id, url) =>  {
@@ -17,21 +17,13 @@
 
     window.onload = () => {
         loadComponents('header', 'src/sections/header.html');
-        loadComponents('mobile-header', 'src/sections/mobile-navBar.html');
-        loadComponents('hero', 'src/sections/hero.html');
-        loadComponents('contact', 'src/sections/contact.html');
-        loadComponents('yellowSection', 'src/sections/yellowSection.html');
+        loadComponents('privacy', 'src/sections/page3/section1.html');
         loadComponents('footer', 'src/sections/footer.html');
     }
 </script>
-<body>
-    <div id="mobile-header"></div>
+<body class="font-[Outfit] font-medium bg-[#EFECEA]">
     <div id="header"></div>
-    <div id="hero"></div>
-    <div id="contact"></div>
-    <div id="yellowSection"></div>
+	<div id="privacy"></div>
     <div id="footer"></div>
-
-    <script src="/src/scripts/header.js" defer></script>
 </body>
 </html>
