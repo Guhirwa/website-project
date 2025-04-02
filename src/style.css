@@ -1,5 +1,7 @@
+@import url(https://fonts.google.com/share?selection.family=Outfit:wght@100..900);
 @import "tailwindcss";
 
 #navbar.hide{
     display: none;
 }
+
