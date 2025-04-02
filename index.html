@@ -17,17 +17,21 @@
 
     window.onload = () => {
         loadComponents('header', 'src/sections/header.html');
+        loadComponents('mobile-header', 'src/sections/mobile-navBar.html');
         loadComponents('hero', 'src/sections/hero.html');
         loadComponents('contact', 'src/sections/contact.html');
         loadComponents('yellowSection', 'src/sections/yellowSection.html');
         loadComponents('footer', 'src/sections/footer.html');
     }
 </script>
-<body class="">
+<body>
+    <div id="mobile-header"></div>
     <div id="header"></div>
     <div id="hero"></div>
     <div id="contact"></div>
     <div id="yellowSection"></div>
     <div id="footer"></div>
+
+    <script src="/src/scripts/header.js" defer></script>
 </body>
 </html>
