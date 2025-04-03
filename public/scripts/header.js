@@ -4,8 +4,8 @@ const observer = new MutationObserver(() => {
     img = document.getElementById("pepe");
     img.addEventListener("click", () => {
         console.log("Click");
-        const source1 =  "/src/assets/close.png"
-        const source2 =  "/src/assets/menu.png"
+        const source1 =  "/assets/close.png"
+        const source2 =  "/assets/menu.png"
         const source = img.getAttribute("src");
         if (source == source1) {
             img.setAttribute("src", source2);
